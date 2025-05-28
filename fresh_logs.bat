@@ -1,0 +1,3 @@
+@echo off
+echo Getting fresh logs with timestamps...
+docker logs -f --tail 20 --timestamps n8n
